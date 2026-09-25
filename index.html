@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Patcharaporn Kummon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Inter:wght@300;400;500;600&family=Rock+Salt&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#project">Project</a>
+      
+    </div>
+  </nav>
+  <section id="home" class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">PORTFOLIO</h1>
+      <div class="hero-subtext">
+        <span class="sub-name">PATCHARAPORN KUMMON</span>
+        <span class="sub-year">2026</span>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about-container">
+    <h2 class="about-title">About Me</h2>
+
+    <div class="about-grid">
+      <div class="col-profile">
+        <div class="profile-frame">
+          <img src="img work/1737919864147.jpg" alt="Patcharaporn Kummon" class="profile-img" />
+        </div>
+        <div class="contact-box">
+          <div class="contact-item">
+            <img src="img work/Gmail.png" alt="Email" class="contact-img" />
+            <span>patcharapornkummon06@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <img src="img work/Phone.png" alt="Phone" class="contact-img" />
+            <span>088-872-1933</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-bio">
+        <p>Visual artist and designer blending a natural eye for color, composition, and layered texture. Inspired by cinema, books, and gaming culture, I focus on turning everyday emotions and ideas into clear, tactile visuals that anyone can connect with.</p>
+      </div> 
+      <div class="col-details">
+        <div class="info-block">
+          <h3>Education</h3>
+          <p class="date-tag">2022–2026</p>
+          <p class="institute-name">King Mongkut's Institute of Technology Ladkrabang</p>
+          <ul class="bullet-list">
+            <li>Fine Arts, Media Arts, and Illustration Arts</li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h3>Experience</h3>
+          <p class="date-tag">2025</p>
+          <ul class="bullet-list">
+            <li>Muralist</li>
+            <li>Exhibiting Artist</li>
+            <li>Sponsorship Coordinator</li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h3>Software</h3>
+          <div class="software-row">
+            <img src="img work/PS.png" alt="Photoshop" class="software-icon" />
+            <img src="img work/Ai.png" alt="Illustrator" class="software-icon" />
+            <img src="img work/Bd.png" alt="Blender" class="software-icon" />
+          </div>
+        </div>
+      </div> <!-- จบคอลัมน์ที่ 3 -->
+    </div> <!-- จบ about-grid -->
+  </section>
+  <section id="project" class="project-container">
+    <div class="project-grid">
+
+      <div class="grid-item col-6" onclick="openModal()" style="cursor: pointer;">
+  <img src="img work/blender/crad.png" alt="Card Project" />
+</div>
+      <div class="grid-item col-6" onclick="openModal2()" style="cursor: pointer;">
+  <img src="img work/blender/coin.png" alt="ITCAMP Project" />
+</div>
+
+      <div class="grid-item col-4" onclick="openModal3()" style="cursor: pointer;">
+  <img src="img work/PS2.png" alt="Art Project 3" />
+</div>
+      <div class="grid-item col-4" onclick="openModal4()" style="cursor: pointer;">
+  <img src="img work/The Trueman Show.png" alt="Art 2" />
+</div>
+      <div class="grid-item col-4" onclick="openModal5()" style="cursor: pointer;">
+  <img src="img work/PS1.png" alt="Architecture Photo" />
+</div>
+<div class="grid-item col-12 hero-banner" onclick="openModal6()" style="cursor: pointer;">
+  <img src="img work/Lifeguard.png" alt="3D Monster Character" />
+</div>
+      <div class="grid-item col-4"onclick="openModal7()" style="cursor: pointer;">
+        <img src="img work/RD/IMG_20260911_185052_513.jpg" alt="Leng Zabb Graphic" />
+      </div>
+      <div class="grid-item col-4"onclick="openModal8()" style="cursor: pointer;">
+        <img src="img work/P1/01014729.jpg" alt="Window Light Photo" />
+      </div>
+      <div class="grid-item col-4"onclick="openModal9()" style="cursor: pointer;">
+        <img src="img work/F/1.png" alt="Black and White Leaves" />
+      </div>
+      <div class="grid-item col-5 fix-h-480"onclick="openModal10()" style="cursor: pointer;">
+        <img src="img work/20230408_123308.jpg" alt="Room Watercolor Sketch" />
+      </div>
+      <div class="grid-item col-7 fix-h-480"onclick="openModal11()" style="cursor: pointer;">
+        <img src="img work/20230408_123213.jpg" alt="Eiffel Tower Sketch" />
+      </div>
+      <div class="grid-item col-4 fix-h-400"onclick="openModal12()" style="cursor: pointer;">
+        <img src="img work/20260518_145521.jpg" alt="Sketch 1" />
+      </div>
+      <div class="grid-item col-4 fix-h-400"onclick="openModal13()" style="cursor: pointer;">
+        <img src="img work/20230502_132426.jpg" alt="Sketch 2" />
+      </div>
+      <div class="grid-item col-4 fix-h-400"onclick="openModal14()" style="cursor: pointer;">
+        <img src="img work/20230417_203647.jpg" alt="Sketch 3" />
+      <div class="grid-item col-6 fix-h-460"onclick="openModal15()" style="cursor: pointer;">
+        <img src="img work/20260518_145937.jpg" alt="House Perspective" />
+      </div>
+      <div class="grid-item col-6 fix-h-460"onclick="openModal16()" style="cursor: pointer;">
+        <img src="img work/20230408_123135.jpg" alt="Stairs Perspective" />
+      </div>
+      <div class="grid-item col-6 fix-h-680"onclick="openModal17()" style="cursor: pointer;">
+        <img src="img work/Screenshot_20260911_150543_DeviantArt.png" alt="Portrait Dot Art" />
+      </div>
+      <div class="col-6 col-stacked-8">
+        <div class="grid-item fix-h-stacked"onclick="openModal18()" style="cursor: pointer;">
+          <img src="img work/red_panda_by_madalso_dg0fap9.jpg" alt="Red Panda Painting" />
+        </div>
+        <div class="grid-item fix-h-stacked"onclick="openModal19()" style="cursor: pointer;">
+          <img src="img work/20230125_114730.jpg" alt="Electric Box Painting" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="thank-you-section">
+    <div class="thank-you-content">
+      <h2 class="thank-you-title">THANK YOU</h2>
+      <p class="thank-you-subtitle">FOR YOUR TIME</p>
+    </div>
+  </section>
+<div id="projectModal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-container modal-with-desc" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect()">&times;</button>
+    <div class="modal-gallery">
+      <div class="modal-row-top">
+        <div class="modal-img-card">
+          <img src="img work/blender/C2.png" alt="Card Animation Detail 1" />
+        </div>
+        <div class="modal-img-card">
+          <img src="img work/blender/C3.png" alt="Card Animation Detail 2" />
+        </div>
+      </div>
+      <div class="modal-row-bottom">
+        <div class="modal-img-card full-w">
+          <img src="img work/blender/C4.png" alt="Card Animation Detail 3" />
+        </div>
+      </div>
+    </div>
+    <button class="desc-toggle-btn" onclick="toggleDescription('descBoxCard')">
+      Card
+    </button>
+
+    <div id="descBoxCard" class="modal-desc-panel">
+      <p class="desc-en">
+        A 3D card model created using Blender, designed as a 3D asset for the IT Camp 20 teaser video.
+      </p>
+      <p class="desc-th">
+        โมเดลไพ่ 3 มิติ ออกแบบและปั้นโมเดลด้วย Blender เพื่อนำไปใช้เป็นส่วนหนึ่งในวิดีโอโปรโมตค่าย
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="https://drive.google.com/file/d/1dVAeASik0_4H1uPwnmPpSrY7BTpfp2wv/view?usp=drive_link" target="_blank" class="...">
+        https://drive.google.com/file/d/1dVAeASik0_4H1uPwnmPpSrY7BTpfp2wv/view?usp=drive_link
+      </a>
+      <div class="qr-box">
+        <img src="img work/blender/Card QR.png" alt="Google Drive QR Code" class="qr-img" />
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+</div>
+<script>
+    function openModal() {
+      const modal = document.getElementById('projectModal');
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden'; 
+    }
+
+    function closeModal(event) {
+      if (event.target.id === 'projectModal') {
+        closeModalDirect();
+      }
+    }
+
+    function closeModalDirect() {
+      const modal = document.getElementById('projectModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';   
+    }
+  </script>
+<div id="projectModal2" class="modal-overlay" onclick="closeModal2(event)">
+  <div class="modal-container modal-with-desc" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect2()">&times;</button>
+    <div class="modal-gallery-2">
+      <div class="modal-img-card">
+        <img src="img work/blender/C02.png" alt="ITCAMP Chips Render 1" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/blender/c03.png" alt="ITCAMP Chips Render 2" />
+      </div>
+    </div>
+    <button class="desc-toggle-btn" onclick="toggleDescription('descBoxCoin')">
+      Poker Chip Coin
+    </button>
+
+    <div id="descBoxCoin" class="modal-desc-panel">
+      <p class="desc-en">
+        Another 3D asset developed to be featured in the IT Camp 20 teaser video
+      </p>
+      <p class="desc-th">
+        ผลงานโมเดล 3 มิติอีกหนึ่งชิ้น ที่ออกแบบและจัดทำขึ้นเพื่อนำไปใช้เป็นส่วนหนึ่งของวิดีโอโปรโมตค่าย IT Camp
+      </p>
+    </div>
+    <div class="modal-footer reverse">
+      <div class="qr-box">
+        <img src="img work/blender/Coin QR.png" alt="Google Drive QR Code" class="qr-img" />
+      </div>
+      <a href="https://drive.google.com/file/d/12NTTAcaWMx0XUiWJslN6OWYGOJB7JLc7/view?usp=drive_link" target="_blank" class="...">
+        https://drive.google.com/file/d/12NTTAcaWMx0XUiWJslN6OWYGOJB7JLc7/view?usp=drive_link
+      </a>
+    </div>
+  </div>
+</div>
+  <script>
+    function openModal() {
+      const modal = document.getElementById('projectModal');
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal(event) {
+      if (event.target.id === 'projectModal') {
+        closeModalDirect();
+      }
+    }
+
+    function closeModalDirect() {
+      const modal = document.getElementById('projectModal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+    function openModal2() {
+      const modal = document.getElementById('projectModal2');
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal2(event) {
+      if (event.target.id === 'projectModal2') {
+        closeModalDirect2();
+      }
+    }
+
+    function closeModalDirect2() {
+      const modal = document.getElementById('projectModal2');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+  </script>
+</body>
+</html>
+<div id="projectModal3" class="modal-overlay" onclick="closeModal3(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect3()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/PS2.png" alt="Art Project 3 Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal4" class="modal-overlay" onclick="closeModal4(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect4()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/The Trueman Show.png" alt="The Trueman Show Poster Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal5" class="modal-overlay" onclick="closeModal5(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect5()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/PS1.png" alt="Architecture Photo Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal6" class="modal-overlay" onclick="closeModal6(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect6()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/Lifeguard.png" alt="3D Monster Lifeguard Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal7" class="modal-overlay" onclick="closeModal7(event)">
+  <div class="modal-container modal-grid4 modal-with-desc" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect7()">&times;</button>
+    <div class="modal-gallery-4">
+      <div class="modal-img-card">
+        <img src="img work/RD/IMG_20260911_185052_513.jpg" alt="Leng Zabb 1" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/RD/IMG_20260911_185139_539.jpg" alt="Leng Zabb 2" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/RD/IMG_20260911_185143_120.jpg" alt="Leng Zabb 3" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/RD/Screenshot_20260911_185239_Instagram.png" alt="Leng Zabb 4" />
+      </div>
+    </div>
+    <button class="desc-toggle-btn" onclick="toggleDescription('descBoxLengZabb')">
+      Commissioned line-art murals
+    </button>
+
+    <div id="descBoxLengZabb" class="modal-desc-panel">
+      <p class="desc-en">
+        Commissioned line-art murals across four raw concrete walls for a Leng Zabb restaurant in Ratchada, hand-painted using fine brushes and Acrylic Paint
+      </p>
+      <p class="desc-th">
+        ผลงานรับเพ้นท์กำแพงร้านเล้งแซ่บ ย่านรัชดา จำนวน 4 ผนังถ่ายทอดงานสไตล์ลายเส้นลงบนพื้นผิวปูนเปลือยโดยใช้พู่กันและสีอะคริลิก
+      </p>
+    </div>
+  </div> 
+</div> 
+<div id="projectModal8" class="modal-overlay" onclick="closeModal8(event)">
+  <div class="modal-container modal-gallery-split modal-with-desc" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect8()">&times;</button>
+    <div class="modal-split-layout">
+      <div class="split-col-left">
+        <div class="modal-img-card">
+          <img src="img work/P1/01014729.jpg" alt="Window Shot 1" />
+        </div>
+        <div class="modal-img-card">
+          <img src="img work/P1/01014733.jpg" alt="Window Shot 2" />
+        </div>
+        <div class="modal-img-card">
+          <img src="img work/P1/01014734.jpg" alt="Window Shot 3" />
+        </div>
+      </div>
+      <div class="split-col-right">
+        <div class="modal-img-card film-card">
+          <img src="img work/P1/20230330_110526.jpg" alt="Film Strip Card" />
+        </div>
+      </div>
+    </div>
+    <button class="desc-toggle-btn" onclick="toggleDescription('descBoxContrasting')">
+      Contrasting Hours
+    </button>
+
+    <div id="descBoxContrasting" class="modal-desc-panel">
+      <p class="desc-en">
+        This photo series captures the coexistence of two roommates sharing the same space on contrasting routines. With different return hours, the balcony becomes a poignant symbol of connection—born from the quiet habit of looking up from below upon returning, wondering if the other is already home. It reflects an unspoken bond and presence felt through shifting lights, quiet traces, and a shared space, even when their paths do not directly cross.
+      </p>
+      <p class="desc-th">
+        ผลงานภาพถ่ายชุดนี้บอกเล่าเรื่องราวการอยู่อาศัยร่วมกันของเพื่อนสองคน ภายใต้พื้นที่เดียวกันแต่ต่างช่วงเวลาด้วยจังหวะชีวิตและเวลากลับห้องที่สวนทางกัน “ระเบียงห้อง” จึงกลายเป็นจุดเชื่อมต่อของความสัมพันธ์ผ่านพฤติกรรมคุ้นชินทุกครั้งที่เดินทางกลับมาคือการแหงนมองขึ้นไปยังระเบียงเพื่อดูว่าเพื่อนกลับถึงห้องหรือยัง ถ่ายทอดความใกล้ชิดที่สัมผัสได้ผ่านแสงไฟ ความเงียบและร่องรอยการมีตัวตน แม้ในยามที่เวลาชีวิตไม่ตรงกัน
+      </p>
+    </div>
+  </div>
+</div> 
+<div id="projectModal9" class="modal-overlay" onclick="closeModal9(event)">
+  <div class="modal-container modal-grid9 modal-with-desc" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect9()">&times;</button>
+    <div class="modal-gallery-9">
+      <div class="modal-img-card">
+        <img src="img work/F/1.png" alt="B&W Shot 1" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/17.png" alt="B&W Shot 2" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/24.png" alt="B&W Shot 3" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/12.png" alt="B&W Shot 4" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/5.png" alt="B&W Shot 5" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/2.png" alt="B&W Shot 6" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/27.png" alt="B&W Shot 7" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/32.png" alt="B&W Shot 8" />
+      </div>
+      <div class="modal-img-card">
+        <img src="img work/F/23.png" alt="B&W Shot 9" />
+      </div>
+    </div>
+    <button class="desc-toggle-btn" onclick="toggleDescription('descBoxLuminous')">
+      LUMINOUS MEMORY
+    </button>
+
+    <div id="descBoxLuminous" class="modal-desc-panel">
+      <p class="desc-en">
+        Human memory is truly fragile. Even after certain chapters of our lives have closed, the emotions still remain, though the details fade over time. Those faint memories, almost gone, are sometimes too blurry to recall clearly—whether they're moments we cherish or ones we'd rather forget. High school was full of those memories: friendships, growing up, changes, and countless emotions that caught us off guard. It was a time so simple yet so complicated, leaving behind memories that still echo in our hearts.
+      </p>
+      <p class="desc-th">
+        ความทรงจำเป็นสิ่งที่เปราะบางสำหรับมนุษย์ เรื่องราวในแต่ละช่วงเวลาที่ผ่านพ้นไปแล้วยังคงหลงเหลืออยู่ในความรู้สึกแต่รายละเอียดได้จางหายไปตามกาลเวลา ความทรงจำที่เลือนรางจนเหมือนกับว่าจะจางหายไปแล้ว บางทีก็จำรายละเอียดได้ไม่ค่อยชัดเจนนัก อาจจะเป็นความทรงจำที่น่าหวนคิดถึงหรืออาจอยากลบเลือนให้หายไป ช่วงวัยมัธยมเป็นช่วงเวลาที่เต็มไปด้วยความทรงจำเหล่านั้น มิตรภาพ การเติบโต การเปลี่ยนแปลง และอารมณ์หลากหลายที่เกิดขึ้นโดยไม่รู้ตัว เป็นช่วงเวลาที่ทั้งเรียบง่ายและซับซ้อนในเวลาเดียวกันของความทรงจำที่ยังคงฉายซ้ำอยู่ในใจ
+      </p>
+    </div>
+
+  </div>
+</div> 
+<div id="projectModal10" class="modal-overlay" onclick="closeModal10(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect10()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230408_123308.jpg" alt="Interior Watercolor Painting Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal11" class="modal-overlay" onclick="closeModal11(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect11()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230408_123213.jpg" alt="Eiffel Tower Sketch Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal12" class="modal-overlay" onclick="closeModal12(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect12()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20260518_145521.jpg" alt="Temple Architecture Pencil Drawing Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal13" class="modal-overlay" onclick="closeModal13(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect13()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230502_132426.jpg" alt="Building Stippling Drawing Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal14" class="modal-overlay" onclick="closeModal14(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect14()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230417_203647.jpg" alt="Night Scene White Ink Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal15" class="modal-overlay" onclick="closeModal15(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect15()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20260518_145937.jpg" alt="Vintage House Ink Drawing Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal16" class="modal-overlay" onclick="closeModal16(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect16()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230408_123135.jpg" alt="Traditional Alley Stairs Drawing Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal17" class="modal-overlay" onclick="closeModal17(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <!-- ปุ่มปิดมุมขวาบน -->
+    <button class="modal-close-btn" onclick="closeModalDirect17()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/Screenshot_20260911_150543_DeviantArt.png" alt="Baby Driver Stippling Art Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal18" class="modal-overlay" onclick="closeModal18(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect18()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/red_panda_by_madalso_dg0fap9.jpg" alt="Red Panda Watercolor Painting Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<div id="projectModal19" class="modal-overlay" onclick="closeModal19(event)">
+  <div class="modal-container modal-single" onclick="event.stopPropagation()">
+    <button class="modal-close-btn" onclick="closeModalDirect19()">&times;</button>
+    <div class="modal-single-img-wrap">
+      <img src="img work/20230125_114730.jpg" alt="Light Switch Box Drawing Full" class="modal-single-img" />
+    </div>
+  </div>
+</div>
+<script>
+  function openModal3() {
+    const modal = document.getElementById('projectModal3');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal3(event) {
+    if (event.target.id === 'projectModal3') {
+      closeModalDirect3();
+    }
+  }
+
+  function closeModalDirect3() {
+    const modal = document.getElementById('projectModal3');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal4() {
+    const modal = document.getElementById('projectModal4');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal4(event) {
+    if (event.target.id === 'projectModal4') {
+      closeModalDirect4();
+    }
+  }
+
+  function closeModalDirect4() {
+    const modal = document.getElementById('projectModal4');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal5() {
+    const modal = document.getElementById('projectModal5');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal5(event) {
+    if (event.target.id === 'projectModal5') {
+      closeModalDirect5();
+    }
+  }
+
+  function closeModalDirect5() {
+    const modal = document.getElementById('projectModal5');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal6() {
+    const modal = document.getElementById('projectModal6');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal6(event) {
+    if (event.target.id === 'projectModal6') {
+      closeModalDirect6();
+    }
+  }
+
+  function closeModalDirect6() {
+    const modal = document.getElementById('projectModal6');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal7() {
+    const modal = document.getElementById('projectModal7');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal7(event) {
+    if (event.target.id === 'projectModal7') {
+      closeModalDirect7();
+    }
+  }
+
+  function closeModalDirect7() {
+    const modal = document.getElementById('projectModal7');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal8() {
+    const modal = document.getElementById('projectModal8');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal8(event) {
+    if (event.target.id === 'projectModal8') {
+      closeModalDirect8();
+    }
+  }
+
+  function closeModalDirect8() {
+    const modal = document.getElementById('projectModal8');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal9() {
+    const modal = document.getElementById('projectModal9');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal9(event) {
+    if (event.target.id === 'projectModal9') {
+      closeModalDirect9();
+    }
+  }
+
+  function closeModalDirect9() {
+    const modal = document.getElementById('projectModal9');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal10() {
+    const modal = document.getElementById('projectModal10');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal10(event) {
+    if (event.target.id === 'projectModal10') {
+      closeModalDirect10();
+    }
+  }
+
+  function closeModalDirect10() {
+    const modal = document.getElementById('projectModal10');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal11() {
+    const modal = document.getElementById('projectModal11');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal11(event) {
+    if (event.target.id === 'projectModal11') {
+      closeModalDirect11();
+    }
+  }
+
+  function closeModalDirect11() {
+    const modal = document.getElementById('projectModal11');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal12() {
+    const modal = document.getElementById('projectModal12');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal12(event) {
+    if (event.target.id === 'projectModal12') {
+      closeModalDirect13();
+    }
+  }
+
+  function closeModalDirect12() {
+    const modal = document.getElementById('projectModal12');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal13() {
+    const modal = document.getElementById('projectModal13');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal13(event) {
+    if (event.target.id === 'projectModal13') {
+      closeModalDirect13();
+    }
+  }
+
+  function closeModalDirect13() {
+    const modal = document.getElementById('projectModal13');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal14() {
+    const modal = document.getElementById('projectModal14');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal14(event) {
+    if (event.target.id === 'projectModal14') {
+      closeModalDirect14();
+    }
+  }
+
+  function closeModalDirect14() {
+    const modal = document.getElementById('projectModal14');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal15() {
+    const modal = document.getElementById('projectModal15');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal15(event) {
+    if (event.target.id === 'projectModal15') {
+      closeModalDirect15();
+    }
+  }
+
+  function closeModalDirect15() {
+    const modal = document.getElementById('projectModal15');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal16() {
+    const modal = document.getElementById('projectModal16');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal16(event) {
+    if (event.target.id === 'projectModal16') {
+      closeModalDirect16();
+    }
+  }
+
+  function closeModalDirect16() {
+    const modal = document.getElementById('projectModal16');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal17() {
+    const modal = document.getElementById('projectModal17');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal17(event) {
+    if (event.target.id === 'projectModal17') {
+      closeModalDirect17();
+    }
+  }
+
+  function closeModalDirect17() {
+    const modal = document.getElementById('projectModal17');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal18() {
+    const modal = document.getElementById('projectModal18');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal18(event) {
+    if (event.target.id === 'projectModal18') {
+      closeModalDirect18();
+    }
+  }
+
+  function closeModalDirect18() {
+    const modal = document.getElementById('projectModal18');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+  function openModal19() {
+    const modal = document.getElementById('projectModal19');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal19(event) {
+    if (event.target.id === 'projectModal19') {
+      closeModalDirect19();
+    }
+  }
+
+  function closeModalDirect19() {
+    const modal = document.getElementById('projectModal19');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+function toggleDescription(descBoxId) {
+  const descBox = document.getElementById(descBoxId);
+  if (descBox) {
+    descBox.classList.toggle('is-visible');
+  }
+}
+function closeModalDirect() {
+  const modal = document.getElementById('projectModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+    const descBox = document.getElementById('descBoxCard');
+    if (descBox) {
+      descBox.classList.remove('is-visible');
+    }
+  }
+}
+function closeModalDirect2() {
+  const modal = document.getElementById('projectModal2');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+    const descBox = document.getElementById('descBoxCoin');
+    if (descBox) {
+      descBox.classList.remove('is-visible');
+    }
+  }
+}
+function closeModalDirect7() {
+  const modal = document.getElementById('projectModal7');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+    const descBox = document.getElementById('descBoxLengZabb');
+    if (descBox) {
+      descBox.classList.remove('is-visible');
+    }
+  }
+}
+function closeModalDirect8() {
+  const modal = document.getElementById('projectModal8');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+
+    // เพิ่มบรรทัดนี้: ซ่อนกล่องคำอธิบาย Contrasting Hours เมื่อปิด Modal
+    const descBox = document.getElementById('descBoxContrasting');
+    if (descBox) {
+      descBox.classList.remove('is-visible');
+    }
+  }
+}
+function closeModalDirect9() {
+  const modal = document.getElementById('projectModal9');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+    const descBox = document.getElementById('descBoxLuminous');
+    if (descBox) {
+      descBox.classList.remove('is-visible');
+    }
+  }
+}
+</script>
+</body>
+</html>
